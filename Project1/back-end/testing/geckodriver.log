@@ -1,0 +1,50 @@
+1659940792023	geckodriver	INFO	Listening on 127.0.0.1:50789
+1659940795058	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50790" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\atnos\\AppData\\Local\\Temp\\rust_mozprofileRqreZ9"
+1659940795404	Marionette	INFO	Marionette enabled
+1659940795410	Marionette	INFO	Listening on port 50800
+WebDriver BiDi listening on ws://localhost:50790
+Read port: 50800
+1659940796049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\atnos\\AppData\\Local\\Temp\\rust_mozprofileRqreZ9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50790/devtools/browser/c3670537-5da9-4d1b-94f9-98d8881cb3c6
+1659941127316	Marionette	INFO	Stopped listening on port 50800
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50860" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\atnos\\AppData\\Local\\Temp\\rust_mozprofileqtFksw"
+1659940822720	Marionette	INFO	Marionette enabled
+1659940822725	Marionette	INFO	Listening on port 50872
+WebDriver BiDi listening on ws://localhost:50860
+Read port: 50872
+1659940823354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\atnos\\AppData\\Local\\Temp\\rust_mozprofileqtFksw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50860/devtools/browser/3b3841ff-7990-47c1-b3fa-3ee767b3c215
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1659941126139	Marionette	INFO	Stopped listening on port 50872
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50970" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\atnos\\AppData\\Local\\Temp\\rust_mozprofileJ0k4NZ"
+1659940972465	Marionette	INFO	Marionette enabled
+1659940972469	Marionette	INFO	Listening on port 50979
+WebDriver BiDi listening on ws://localhost:50970
+Read port: 50979
+1659940973096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\atnos\\AppData\\Local\\Temp\\rust_mozprofileJ0k4NZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50970/devtools/browser/74ecb83d-4c72-4266-a5a4-9dfc3a77c9e2
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1659941084606	Marionette	INFO	Stopped listening on port 50979
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 16628, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\\Temp\\rust_mozprofileSegj9H"
+1659941024564	Marionette	INFO	Marionette enabled
+1659941024569	Marionette	INFO	Listening on port 51086
+WebDriver BiDi listening on ws://localhost:51076
+Read port: 51086
+1659941025191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\atnos\\AppData\\Local\\Temp\\rust_mozprofileSegj9H\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51076/devtools/browser/41616c7d-077d-4885-a827-005e9eafcdc9
+1659941049130	Marionette	INFO	Stopped listening on port 51086
+!!! error running onStopped callback: TypeError: callback is not a function

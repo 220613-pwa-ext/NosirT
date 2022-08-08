@@ -7,21 +7,30 @@ rc = Blueprint("reimb_controller", __name__)
 reimb_service = ReimbService()
 
 
+@rc.route('/reimbs', methods=['GET'])
+def get_reimbs():
+    try:
+        reimbs_dict = reimb_service.get_reimbs()
+    except ReimbNotFoundException as e:
+        return {}, 400
+    return {"reimbs": reimbs_dict}, 200
+
+
 @rc.route('/employee_reimbs/<u_id>')
 def get_reimb_by_employee_id(u_id):
     try:
         reimb = reimb_service.get_reimb_by_employee_id(int(u_id))
     except RegistrationException as e:
         return {
-            "messages": e.messages
-        }, 400
+                   "messages": e.messages
+               }, 400
     if reimb is None:
         user_r = reimb_service.get_reimb_by_manager_id(u_id)
         return {
                    "reimbs": user_r
                }, 200
     return {
-              "reimbs": reimb
+               "reimbs": reimb
            }, 200
 
 
@@ -32,5 +41,5 @@ def update_reimb_by_id(reimb_id, stat):
         return reimb
     except ReimbNotFoundException as e:
         return {
-            "message": str(e)
-        }, 404
+                   "message": str(e)
+               }, 404

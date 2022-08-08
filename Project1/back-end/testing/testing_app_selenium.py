@@ -1,9 +1,10 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.webdriver import WebDriver
 
+browser = webdriver.Firefox('')
 
-browser = webdriver.Chrome('./chromedriver.exe')
 
 
 browser.get('http://127.0.0.1:5500/index.html')
@@ -12,11 +13,11 @@ selected_element = browser.find_element(By.ID, "login-btn")
 selected_element.click()
 
 usern_element = browser.find_element(By.CLASS_NAME, "input")
-usern_element.send_keys("bobby39")
+usern_element.send_keys("nosir99")
 time.sleep(2)
 
 pass_element = browser.find_element(By.CLASS_NAME, "input2")
-pass_element.send_keys("Dot")
+pass_element.send_keys("512-826-5956")
 time.sleep(2)
 
 log_btn = browser.find_element(By.ID, "login-btn")

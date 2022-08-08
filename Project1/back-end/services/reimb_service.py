@@ -7,6 +7,10 @@ class ReimbService:
     def __init__(self):
         self.reimb_dao = ReimbDao()
 
+    def get_reimbs(self):
+        reimb_obj = self.reimb_dao.get_reimbs()
+        return reimb_obj.to_dict()
+
     def get_reimb_by_employee_id(self, u_id):
         list_of_reimbs = self.reimb_dao.get_reimb_by_employee_id(u_id)
         list_of_reimbs_dictionary = []

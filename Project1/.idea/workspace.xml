@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd164eb-c05b-4226-bb93-aa731c7085cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-0/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-0/query-parameter-hints.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-0/query-parameter-test-scenarios-for-account-balances.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qc-tips.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project-2/TestAutomation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project-2/testThetest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project-2/testThetest/src/test/java/testCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-2/P2_backend" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-2/P2_backend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-2/Project2_frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-2/Project2_frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-2/Scripts/Script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/atnos/Desktop/Revature/Project1&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/atnos/Desktop/Revature/Project1/back-end/app.py",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Project1" />
@@ -56,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/registration-back_end" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/back-end" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/registration-back_end/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/back-end/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
